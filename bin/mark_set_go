@@ -1,0 +1,7 @@
+require 'mark_set_go'
+
+lines = File.readlines(ARGV[0])
+
+doc = Document.new(lines)
+
+puts doc.to_s
