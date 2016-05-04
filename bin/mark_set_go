@@ -4,10 +4,8 @@ require 'mark_set_go'
 
 if ARGV.length > 0
   lines = File.readlines(ARGV[0])
+  doc = Document.new(lines)
+  puts doc.to_s
 else
   puts "Point me at some Go!"
 end
-
-doc = Document.new(lines)
-
-puts doc.to_s
