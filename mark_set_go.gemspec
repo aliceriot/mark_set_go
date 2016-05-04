@@ -13,5 +13,6 @@ Gem::Specification.new do |s|
     'lib/mark_set_go/document.rb'
   ]
   s.executables << 'mark_set_go'
-  s.license     = 'GPLv3'
+  s.license     = 'GPL-3.0'
+  s.homepage    = 'https://github.com/aliceriot/mark_set_go'
 end
